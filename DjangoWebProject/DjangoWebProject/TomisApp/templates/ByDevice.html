@@ -1,0 +1,34 @@
+﻿{% extends "layout.html" %}
+{% block content %}
+<div id="container"></div>
+<script src="https://code.highcharts.com/highcharts.src.js"></script>
+<script>
+  Highcharts.chart('container', {
+      chart: {
+          type: 'column'
+      },
+      title: {
+          text: 'Numbers by Device Type '
+      },
+      xAxis: {
+          categories: {{ categories|safe }}
+      },
+      series: [{
+          name: 'Interactions',
+          data: {{ interactions }},
+          color: 'green'
+      },
+       {
+          name: 'Clicks',
+          data: {{ clicks }},
+          color: 'red'
+      },
+       {
+          name: 'Impressions',
+          data: {{ impressions }},
+          color: 'blue'
+      }]
+  });
+</script>
+
+{% endblock %}

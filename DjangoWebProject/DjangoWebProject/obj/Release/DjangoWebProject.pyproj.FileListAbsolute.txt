@@ -1,0 +1,7 @@
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\bin\AzureSetup.cfg
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\bin\wfastcgi.py
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\obj\Release\web.config
+C:\Users\swoff\Documents\Workspace\OneWayTeck\DjangoWebProject\DjangoWebProject\obj\Release\web.debug.config

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
+</head>
+
+<body>
+    <div class="navbar">
+       <a href="/" class="navbar-brand">Tomis Data</a>
+       <a href="{% url 'home' %}" class="navbar-item">Home</a>
+       <a href="{% url 'ByDevice' %}" class="navbar-item">By Device</a>
+        <a href="{% url 'ByLocationType' %}" class="navbar-item">By Location Type</a>
+        
+    </div>
+
+    <div class="body-content">
+{% block content %}{% endblock %}
+        <hr/>
+        <footer>
+            <p>&copy; 2018</p>
+        </footer>
+    </div>
+</body>
+</html>
